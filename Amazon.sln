@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{CF58A89F-79D4-48DC-B281-FDC4F7F40608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon", "Amazon\Amazon.csproj", "{CF58A89F-79D4-48DC-B281-FDC4F7F40608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{71C48C31-4EE9-4C8B-AEBB-7D08BD8BE980}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CF58A89F-79D4-48DC-B281-FDC4F7F40608}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF58A89F-79D4-48DC-B281-FDC4F7F40608}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF58A89F-79D4-48DC-B281-FDC4F7F40608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C48C31-4EE9-4C8B-AEBB-7D08BD8BE980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C48C31-4EE9-4C8B-AEBB-7D08BD8BE980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C48C31-4EE9-4C8B-AEBB-7D08BD8BE980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C48C31-4EE9-4C8B-AEBB-7D08BD8BE980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

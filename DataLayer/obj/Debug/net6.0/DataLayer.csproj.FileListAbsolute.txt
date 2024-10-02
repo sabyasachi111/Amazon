@@ -1,0 +1,14 @@
+D:\DotNet_2023\Amazon\DataLayer\bin\Debug\net6.0\DataLayer.deps.json
+D:\DotNet_2023\Amazon\DataLayer\bin\Debug\net6.0\DataLayer.runtimeconfig.json
+D:\DotNet_2023\Amazon\DataLayer\bin\Debug\net6.0\DataLayer.dll
+D:\DotNet_2023\Amazon\DataLayer\bin\Debug\net6.0\DataLayer.pdb
+D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\DataLayer.csproj.AssemblyReference.cache
+D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfoInputs.cache
+D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfo.cs
+D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\DataLayer.dll
+D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\refint\DataLayer.dll
+D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\DataLayer.pdb
+D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\DataLayer.genruntimeconfig.cache
+D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\ref\DataLayer.dll
