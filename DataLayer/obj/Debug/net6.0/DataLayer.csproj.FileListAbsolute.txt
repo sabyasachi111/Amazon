@@ -12,3 +12,6 @@ D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\refint\DataLayer.dll
 D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\DataLayer.pdb
 D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\DataLayer.genruntimeconfig.cache
 D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\ref\DataLayer.dll
+D:\DotNet_2023\Amazon\DataLayer\bin\Debug\net6.0\AmazonModel.dll
+D:\DotNet_2023\Amazon\DataLayer\bin\Debug\net6.0\AmazonModel.pdb
+D:\DotNet_2023\Amazon\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CopyComplete

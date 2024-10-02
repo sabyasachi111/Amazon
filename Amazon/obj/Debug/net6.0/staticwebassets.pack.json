@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Amazon.bundle.scp.css"
     },
     {
+      "Id": "D:\\DotNet_2023\\Amazon\\Amazon\\wwwroot\\Utills\\Banner.png",
+      "PackagePath": "staticwebassets\\Utills\\Banner.png"
+    },
+    {
+      "Id": "D:\\DotNet_2023\\Amazon\\Amazon\\wwwroot\\css\\Master.css",
+      "PackagePath": "staticwebassets\\css\\Master.css"
+    },
+    {
       "Id": "D:\\DotNet_2023\\Amazon\\Amazon\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
