@@ -4,7 +4,8 @@ namespace Amazon.Controllers
 {
     public class SignOnController : Controller
     {
-        public IActionResult Index()
+       [HttpGet]
+       public IActionResult SignOn()
         {
             return View();
         }

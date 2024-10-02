@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\DotNet_2023\Amazon\Amazon
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/DotNet_2023/Amazon/Amazon/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DotNet_2023/Amazon/Amazon/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNet_2023/Amazon/Amazon/Views/SignOn/SignOn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbk9uXFNpZ25Pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DotNet_2023/Amazon/Amazon/Views/_ViewImports.cshtml]

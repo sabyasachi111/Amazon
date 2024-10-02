@@ -792,6 +792,31 @@
             "rid": "win"
           }
         }
+      },
+      "AmazonModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AmazonModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AmazonModel.dll": {}
+        }
+      },
+      "DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AmazonModel": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataLayer.dll": {}
+        }
       }
     }
   },
@@ -2034,10 +2059,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "AmazonModel/1.0.0": {
+      "type": "project",
+      "path": "../AmazonModel/AmazonModel.csproj",
+      "msbuildProject": "../AmazonModel/AmazonModel.csproj"
+    },
+    "DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataLayer/DataLayer.csproj",
+      "msbuildProject": "../DataLayer/DataLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DataLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
@@ -2070,7 +2106,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\DotNet_2023\\Amazon\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "D:\\DotNet_2023\\Amazon\\DataLayer\\DataLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

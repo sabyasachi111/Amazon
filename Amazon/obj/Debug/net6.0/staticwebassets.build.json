@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EYoswJ9SEgdnaWtfckIUAcQpzhFWjhmiTjBkRHB8mw0=",
+  "Hash": "pXdqzOQIFkys1uygRcfDF+N278gBwTTtf7DA7KHEymY=",
   "Source": "Amazon",
   "BasePath": "_content/Amazon",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\DotNet_2023\\Amazon\\Amazon\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Amazon.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\DotNet_2023\\Amazon\\Amazon\\wwwroot\\css\\Master.css",
+      "SourceId": "Amazon",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNet_2023\\Amazon\\Amazon\\wwwroot\\",
+      "BasePath": "_content/Amazon",
+      "RelativePath": "css/Master.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Master.css"
     },
     {
       "Identity": "D:\\DotNet_2023\\Amazon\\Amazon\\wwwroot\\css\\site.css",
@@ -1069,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\DotNet_2023\\Amazon\\Amazon\\wwwroot\\Utills\\Banner.png",
+      "SourceId": "Amazon",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNet_2023\\Amazon\\Amazon\\wwwroot\\",
+      "BasePath": "_content/Amazon",
+      "RelativePath": "Utills/Banner.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Utills\\Banner.png"
     }
   ]
 }

@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AmazonModel\AmazonModel.csproj" />
+  </ItemGroup>
+
 </Project>
