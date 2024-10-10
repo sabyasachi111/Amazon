@@ -22,7 +22,7 @@ namespace Amazon.Controllers
             }
             var product=_context.StoreProducts.FirstOrDefault(x => x.ProductID==Id);
             CartModel cart= new CartModel();
-            cart.P
+           
             return View(product);
         }
     }
