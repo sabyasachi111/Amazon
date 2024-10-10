@@ -1,0 +1,29 @@
+﻿@model AmazonModel.Models.StoreProductsModel
+
+<div class="container-fluid  m-sm-5">
+   
+    
+    <div class="d-flex flex-row justify-content-sm-between align-items-center flex-sm-wrap">
+        
+
+
+            <div class="card bg-dark m-sm-2" style="width: 18rem;">
+                <img class="card-img-top bg-light" src="@Model.url" style="width:100%;height:250px;" alt="Card image cap">
+                <div class="card-body">
+                    @using System.Globalization;
+                    <a asp-action="ProductDetails" asp-controller="" asp-route-id="@Model.ProductID"> <h5 class="card-title text-light">@Model.ProductName</h5></a>
+                    <p class="card-text text-light">@string.Format(new CultureInfo("en-IN"), "{0:c}", Model.Price)</p>
+                    
+
+                </div>
+            </div>
+        
+    </div>
+
+    <div class="d-flex flex-row justify-content-md-evenly m-sm-2" >
+        <a asp-action="AddProduct" asp-controller="" class="btn btn-dark" style="width:300px">Continue Shopping</a>
+        <a asp-action="CheckOut" asp-controller="cart" class="btn btn-success" style="width:300px">Checkout</a>
+    </div>
+
+</div>
+

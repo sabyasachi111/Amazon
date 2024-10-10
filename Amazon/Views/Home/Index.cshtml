@@ -1,0 +1,24 @@
+﻿@model List<AmazonModel.Models.CatagoryModel>
+
+<div class="container d-flex flex-row  align-content-center ">
+    <aside class="aside bg-dark">
+        <ul class="list-unstyled bg-dark ">
+            
+            @foreach(var li in Model)
+            {
+                <li class="text-light m-sm-5 ">
+                   <a >@li.Name</a> 
+                </li>
+            }
+           
+           
+
+        </ul>
+    </aside>
+    <main class="main">
+        <img src="~/Utills/Banner.png" />
+    </main>
+
+</div>
+
+

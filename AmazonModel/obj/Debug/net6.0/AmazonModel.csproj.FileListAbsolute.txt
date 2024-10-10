@@ -1,0 +1,12 @@
+D:\DotNet_2023\Amazon\AmazonModel\bin\Debug\net6.0\AmazonModel.deps.json
+D:\DotNet_2023\Amazon\AmazonModel\bin\Debug\net6.0\AmazonModel.dll
+D:\DotNet_2023\Amazon\AmazonModel\bin\Debug\net6.0\AmazonModel.pdb
+D:\DotNet_2023\Amazon\AmazonModel\obj\Debug\net6.0\AmazonModel.csproj.AssemblyReference.cache
+D:\DotNet_2023\Amazon\AmazonModel\obj\Debug\net6.0\AmazonModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet_2023\Amazon\AmazonModel\obj\Debug\net6.0\AmazonModel.AssemblyInfoInputs.cache
+D:\DotNet_2023\Amazon\AmazonModel\obj\Debug\net6.0\AmazonModel.AssemblyInfo.cs
+D:\DotNet_2023\Amazon\AmazonModel\obj\Debug\net6.0\AmazonModel.csproj.CoreCompileInputs.cache
+D:\DotNet_2023\Amazon\AmazonModel\obj\Debug\net6.0\AmazonModel.dll
+D:\DotNet_2023\Amazon\AmazonModel\obj\Debug\net6.0\refint\AmazonModel.dll
+D:\DotNet_2023\Amazon\AmazonModel\obj\Debug\net6.0\AmazonModel.pdb
+D:\DotNet_2023\Amazon\AmazonModel\obj\Debug\net6.0\ref\AmazonModel.dll
