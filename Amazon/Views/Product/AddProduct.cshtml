@@ -1,0 +1,83 @@
+﻿@model AmazonModel.Models.StoreProductsModel
+
+
+<form method="post" class="bg-dark">
+    <div class="bg-dark">
+        <div class="row">
+            <div class="col-12 align-items-center text-light"><h3>Add Product</h3></div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="PartNumber" class="lblText">Part Number<sup>*</sup></label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="txtFirstName" class="inputField" asp-for="PartNumber" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="ProductName" class="lblText"> Product Name<sup>*</sup></label>
+            </div>
+            <div class="col-8">
+                <input asp-for="ProductName" type="text" id="txtLastName" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="Price" class="lblText">Price</label>
+            </div>
+            <div class="col-8">
+                <input asp-for="Price" type="text" id="txtFirstName" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="Stock" class="lblText">Stock</label>
+            </div>
+            <div class="col-8">
+                <input asp-for="Stock" type="text" id="txtTelephonePrim" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="Manufacturer" class="lblText">Manufacturer</label>
+            </div>
+            <div class="col-8">
+                <input asp-for="Stock" type="text" id="txtSecondaryTelephone" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="Catagory" class="lblText">Catagory</label>
+            </div>
+            <div class="col-8">
+                <input asp-for="Catagory" type="text" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="Height" class="lblText">Height</label>
+            </div>
+            <div class="col-8">
+                <input asp-for="Stock" type="text" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="Width" class="lblText">Width</label>
+            </div>
+            <div class="col-8">
+                <input asp-for="Width" type="text" id="txtPassword" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a  asp-controller="Product" asp-action="AddProduct"  class="btn btn-success m-sm-2 form-control">Add</a>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-4">
+                <a  asp-controller="Product" asp-action="GetAllProduct" class="btn btn-danger m-sm-2 form-control">Cancle</a>
+            </div>
+        </div>
+    </div>
+</form>

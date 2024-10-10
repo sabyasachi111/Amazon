@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Amazon.Models;
+using AmazonModel.Models;
 
 namespace DataLayer.DataContext
 {
@@ -17,6 +18,12 @@ namespace DataLayer.DataContext
         }
 
         public DbSet<UserModel> StoreUsers { get; set; }
+
+        public DbSet<StoreProductsModel> StoreProducts { get; set; }
+
+        public DbSet<CatagoryModel> StoreCatagory { get; set; }
+
+        public DbSet<CartModel> StoreCart { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

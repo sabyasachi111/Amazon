@@ -1,13 +1,24 @@
+using AspNetCoreHero.ToastNotification;
 using DataLayer.DataContext;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AmazonDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnectionString")));
-
+builder.Services.AddNotyf(
+    Config =>
+    {
+        Config.DurationInSeconds = 10; Config.IsDismissable = true;
+        Config.Position = NotyfPosition.TopRight;
+    }
+    );
+builder.Services.AddSession();
 var app = builder.Build();
 
 
@@ -25,7 +36,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.UseSession();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -68,3 +68,7 @@ D:\DotNet_2023\Amazon\Amazon\bin\Debug\net6.0\DataLayer.dll
 D:\DotNet_2023\Amazon\Amazon\bin\Debug\net6.0\DataLayer.pdb
 D:\DotNet_2023\Amazon\Amazon\bin\Debug\net6.0\AmazonModel.dll
 D:\DotNet_2023\Amazon\Amazon\bin\Debug\net6.0\AmazonModel.pdb
+D:\DotNet_2023\Amazon\Amazon\bin\Debug\net6.0\AspNetCoreHero.ToastNotification.Views.dll
+D:\DotNet_2023\Amazon\Amazon\bin\Debug\net6.0\AspNetCoreHero.ToastNotification.dll
+D:\DotNet_2023\Amazon\Amazon\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\DotNet_2023\Amazon\Amazon\obj\Debug\net6.0\Amazon.MvcApplicationPartsAssemblyInfo.cs
