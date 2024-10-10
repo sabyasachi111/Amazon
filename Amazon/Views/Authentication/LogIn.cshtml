@@ -1,0 +1,23 @@
+﻿@model Amazon.Models.UserModel
+
+
+<form method="post">
+    <div class="container bg-primary">
+        <div class="two">
+            <label asp-for="Email">Email</label>
+            <input asp-for="Email" type="text" placeholder="abc@xyz.com" />
+        </div>
+        <br>
+        <div class="two">
+            <label asp-for="Password">Password</label>
+            <input asp-for="Password" type="text" placeholder="xxxxxxxx" />
+        </div>
+        <br>
+       <div class="one">
+            <button type="submit" asp-action="LogIn">Login</button>
+            <button type="submit" asp-action="Index" asp-controller="Home">Cancle</button>
+       </div>
+
+    </div>
+
+</form>

@@ -1,0 +1,74 @@
+﻿@model Amazon.Models.UserModel
+
+<form method="post" class="SignInForm">
+    <div class="signOn-container">
+        <div class="row">
+            <div class="col-12"><h3>Register</h3></div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="UserFirstName" class="lblText">First Name<sup>*</sup></label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="txtFirstName" class="inputField" asp-for="UserFirstName" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="UserLastName" class="lblText">Last Name<sup>*</sup></label>
+            </div>
+            <div class="col-8">
+                <input asp-for="UserLastName"  type="text" id="txtLastName" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="Title" class="lblText">Title</label>
+            </div>
+            <div class="col-8">
+                <input asp-for="Title" type="text" id="txtFirstName" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="TelephonePrim" class="lblText">Primary Telephone<sup>*</sup></label>
+            </div>
+            <div class="col-8">
+                <input asp-for="TelephonePrim"  type="text" id="txtTelephonePrim" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="TelephoneSec" class="lblText">Secondary Telephone</label>
+            </div>
+            <div class="col-8">
+                <input asp-for="TelephoneSec" type="text" id="txtSecondaryTelephone" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="Email" class="lblText">Email<sup>*</sup></label>
+            </div>
+            <div class="col-8">
+                <input asp-for="Email" type="text" id="txtEmail" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <label asp-for="Password" class="lblText">Password<sup>*</sup></label>
+            </div>
+            <div class="col-8">
+                <input asp-for="Password" type="text" id="txtPassword" class="inputField" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <button type="submit" asp-controller="SignOn" asp-action="SignIn" class="btnSubmit">Register</button>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-4">
+                <button type="submit" asp-controller="Home" asp-action="Index" class="btnCancel">Cancle</button>
+            </div>
+        </div>
+    </div>
+</form>
